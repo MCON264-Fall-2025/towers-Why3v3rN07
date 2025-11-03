@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Add parent so this module inherits from the repository root POM -->
+  <parent>
+    <groupId>las-mcon-264</groupId>
+    <artifactId>recursion-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <!-- groupId and version are inherited from the parent POM -->
+  <artifactId>recursion</artifactId>
+  <packaging>jar</packaging>
+
+  <name>recursion</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <!-- Java 21 and UTF-8 encoding -->
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+</project>
