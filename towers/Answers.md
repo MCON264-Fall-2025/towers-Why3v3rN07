@@ -162,7 +162,7 @@ _Why does this variation grow faster than the standard version? How do additiona
 ## References (APA or MLA format)
 
 - Dale, N., Joyce, D., &amp; Weems, C. (2016). *Object-Oriented Data Structures Using Java* (Ch. 3 Recursion). Jones &amp; Bartlett.
-- “Tower of Hanoi/Variant.” ProofWiki, https://proofwiki.org/wiki/Tower_of_Hanoi/Variant. . Accessed 11 Nov. 2025.
+- “Tower of Hanoi/Variant.” ProofWiki, https://proofwiki.org/wiki/Tower_of_Hanoi/Variant. Accessed 11 Nov. 2025.
 ---
 
  **Submission Checklist**
