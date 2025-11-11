@@ -1,6 +1,5 @@
 package exercises;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
