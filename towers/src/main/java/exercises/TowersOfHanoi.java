@@ -1,7 +1,9 @@
 package exercises;
 
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Towers of Hanoi (Recursive).
@@ -36,11 +38,15 @@ public class TowersOfHanoi {
      * @param moves output list to record each move as a string "X -> Y"
      */
     public static void solve(int n, char from, char aux, char to, List<String> moves) {
-        // TODO: implement recursively
-        // if (n == 0) return;
-        // 1) solve(n - 1, from, to, aux, moves);
-        // 2) moves.add(from + " -> " + to);
-        // 3) solve(n - 1, aux, from, to, moves);
+        if (n == 0) return;
+        solve(n - 1, from, to, aux, moves);
+        moves.add(from + " -> " + to);
+        solve(n - 1, aux, from, to, moves);
+    }
+    public static void main(String[] args) {
+        ArrayList<String> moves = new ArrayList<>();
+        solve(3, 'A', 'B',  'C', moves);
+        for (String move : moves) System.out.println(move);
     }
 }
 
